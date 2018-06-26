@@ -7,4 +7,6 @@ class App < Sinatra::Base
     @result = @name.upcase
     @result
   end
+
+  get '/square/:'
 end
